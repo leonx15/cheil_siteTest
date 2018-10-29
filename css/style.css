@@ -1,0 +1,129 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+i{
+  font-family: 'fontawesome', sans-serif;
+}
+.bg-dark {
+    background-color: #343a4070!important;
+}
+.slItem {
+background-position: center center;
+}
+
+.icon_field {
+    padding-top: 85px;
+    padding-bottom: 105px;
+    overflow: hidden;
+}
+
+.scrooldown {
+    position: absolute;
+    left: 48.5%;
+    bottom: -2%;
+    width: 40px;
+    height: 40px;
+    line-height: 48px;
+    background: #f4f5f9;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 9;
+}
+
+.img-scroll {
+    width:35px;
+    margin-top: -10px;
+}
+
+.navbar{
+  padding-left: 40vw;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: inset;
+    border-width: 1px;
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+    font-size: 5vw;
+    }
+    h3 {
+    font-size: 3.5vw;
+    }
+    p {
+    font-size: 0.6em;
+    }
+    li {
+      text-align: right;
+    }
+    .only-pc{
+      display: none;
+    }
+    .slider [class*="ctrl"]{
+      font-size: 40px;
+    }
+    .slText{
+          padding: 0 100px;
+    }
+    .navbar{
+      padding-left: 5vw;
+    }
+    .container {
+    padding-right: 10%;
+    padding-left: 10%;
+    }
+    .space-below{
+      padding-bottom: 25px;
+    }
+    .bg-dark {
+    background-color: #1f2429e0!important;
+    }
+    .collapse.show {
+    display: block;
+    line-height: 8vw;
+    height: 100vw;
+    }
+    .navbar-brand {
+      padding-left: 42%;
+    }
+    .navbar-nav .nav-link{
+      font-size: 7.5vw;
+      padding-right: 25px;
+    }
+}
+
+
+/*ANIMATE ICONS:hover*/
+
+.icon_contain:hover .icon{
+    border-color:#e74c3c;
+    transform: rotate(45deg);
+}
+.icon_contain:hover .icon i{
+    transform: rotate(-45deg);
+}
+.icon_contain:hover h4{
+    color:#e74c3c;
+}
+.icon_contain .icon{
+    border:1px solid #ddd;
+    width:70px;
+    height: 70px;
+    line-height: 70px;
+    margin:20px auto;
+    transition: all 0.6s;
+}
+.icon_contain i{
+    margin-bottom:30px;
+    color:#e74c3c;
+    transition: all 0.6s;
+}
+.icon_contain h4{
+    transition: all 0.6s;
+}
