@@ -1,8 +1,20 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
+h3{
+  font-size: 1rem;
+}
 i{
   font-family: 'fontawesome', sans-serif;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: inset;
+    border-width: 1px;
 }
 .bg-dark {
     background-color: #343a4070!important;
@@ -39,22 +51,9 @@ background-position: center bottom;
   padding-left: 40vw;
 }
 
-hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-style: inset;
-    border-width: 1px;
-}
-
 @media only screen and (max-width: 767px) {
     h1 {
     font-size: 5vw;
-    }
-    h3 {
-    font-size: 3.5vw;
     }
     p {
     font-size: 0.6em;
