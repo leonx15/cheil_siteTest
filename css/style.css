@@ -61,6 +61,11 @@ hr {
     }
     li {
       text-align: right;
+      border-bottom: 2px solid black;
+    }
+    li:hover {
+      text-align: right;
+      border-bottom: 2.5px solid orange;
     }
     .only-pc{
       display: none;
